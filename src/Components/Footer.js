@@ -1,6 +1,12 @@
 import React from "react";
 
 function Footer() {
+
+
+
+
+
+
   return (
     <section className="footer">
       <section className="footer-name">
@@ -9,6 +15,8 @@ function Footer() {
       <section className="footer-hours">
         Hours:<br/> closed Monday <br />
         Open for Dinner Tuesday through Sunday from 5p.m. to 9p.m.
+      <br/> We are located at 400 Twenty-Ninth Place Ct.
+            Charlottesville, Virginia 22901
         <br />
         <section className="copyright">
         &copy;  Copyright Tech Solutions Inc
