@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <div>
+    
     <nav className="nav">
       <img src={carms} className="carmslogo" alt="logo"></img>
       <h2 className="H2">
@@ -30,7 +30,7 @@ function Nav() {
         </Link>
       </ul>
     </nav>
-  </div>  
+    
   )
 }
 

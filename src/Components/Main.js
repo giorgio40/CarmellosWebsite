@@ -33,7 +33,7 @@ function Main() {
             <br />
             <br />
             <animated.h1 class="anim-h1" style={props2}>
-              Welcome to Carmello's Ristorante Italiano of Charlottesville
+              Welcome to Carmello's Ristorante & Wine Bar of Charlottesville
             </animated.h1>
             <animated.p className="anim-p" style={props3}>
               Serving Fine Northern Italian Cusine since 1987
