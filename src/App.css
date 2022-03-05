@@ -1,38 +1,355 @@
-.App {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  max-width: 100%;
+}
+
+
+.nav {
+  display: flex;
+  background: #88bb63;
+  height: 15vh;
+  justify-content: space-around;
+  opacity: 0.8;
+  background:#800020;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: "Italianno", serif;
+  
+}
+
+.nav-links li {
+  color: #e2725b;
+  font-size:2rem;
+  text-shadow: 2px 2px black;
+}
+
+.nav-links li:hover{
+  color:gold;
+  
+}
+
+.H2{
+	font-family: Italiana;
+	font-size: 1.2rem;
+	margin-top:2%;
+  font-style: italic;
+  color: #F8F0E3;
+  font-weight:500;
+
+}
+
+
+.nav {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carmslogo {
+  height: 15vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .container-img {
+  background-repeat: no-repeat cover;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 3%;
+  font-size: 2rem;
+} 
+
+.anim-h1{
+  font-size:4.5rem;
+  color: #e2725b ;
+  font-family:Italianno;
+  font-weight:bold;
+  text-align:center;
+  color:#800020;
+  
+}
+
+.anim-p{
+  text-align:center;
+  font-family:Italiana serif;
+  font-weight:400;
+  font-size:2.7rem;
+  color:#F8F0E3;
+
+}
+
+.anim-p2{
+  text-align:center;
+  margin-top:5% !important;
+  color:#F8F0E3;
+  font-weight:400;
+  font-family:Italiana serif;
+  font-size:2.7rem;
+
+ 
+
+}
+
+.anim-p3{
+  text-align:center;
+  margin-top:5%;
+  color:#F8F0E3;
+  font-family:Italiana serif;
+  font-weight:500;
+  font-size:2.7rem;
+}
+
+.button-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:5%;
+  
+}
+
+
+
+.cta-menu{
+  text-align:center;
+  padding:24px 36px;
+  border-radius:15px;
+  background:#800020;
+  font-family:Italianno serif;
+  font-size:1.5rem;
+  color:#e2725b;
+  font-style:italic;
+
+}
+
+.cta-menu:hover{
+  color:grey;
+  background:blanchedalmond;
+
+}
+
+.Link{
+  text-decoration: none;
+}
+
+.wine-section{
+    background-repeat: no-repeat cover;
+    background-size:cover;
+    max-height: 100%;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    color:beige;
+}
+
+    table th{
+      padding: 3rem;
+      color:grey;      
+     
+
+      
+    }
+
+    table td{
+      padding:10px;
+      font-weight:bold;
+      font-family:Italianno;
+      font-size:2.3rem;
+      color:#F7E7CE;
+    }
+    
+.wine-heading{
+  font-weight:bold;
+  font-family:Italianno;
+  font-size:4rem;
+  color:#e2725b;
+  text-align:center;
+ 
+}
+  .wine{
+    font-size:3rem;
+    font-family:Italianno;
+    font-weight:500;
+    margin-top:3%;
+    color:#9A3B4E;
   }
+
+.reservation-form input{
+  display:flex column;
+  justify-content:center;
+  align-items:center;
+}
+.reservations{
+  font-size:4rem;
+  text-align:center;
+  font-weight:bold;
+  font-family:Italianno;
+  max-height:15vh;
+  margin-top:5%;
+
+}
+.reservation-container{
+  background:beige;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+
+.container{
+  background-repeat: no-repeat cover;
+  background-size: cover;
+  height: 110vh;
+  font-size: 2rem;
+ 
+ 
+} 
+.form-div .reservation-form{
+  display:flex column;
+  justify-content:center;
+  align-items:center;
+  height:50vh;
+  margin-top:4%;
+  width:100%;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+input{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:18%;
+  height:5vh;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+
+.paragraph{
+  font-size:2.5rem;
+  color: #99334D;
+  text-align:center;
+  font-family:Italiana,serif;
+  font-weight:500;
+  font-style:italic;
+  margin-top:4%;
+
+  
+
+}
+
+label{
+  color:#F5F5DC;
+  font-size:1.4rem;
+  display:flex;
+  justify-content:center;
+  margin:1%;
+  font-weight:bold;
+}
+
+
+.div-button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:4%;
+
+}
+
+.div-button button{
+  padding:22px 100px;
+  border-radius:15px;
+  background:#E2725B;
+  opacity:.7;
+  color:beige;
+}
+.div-button button:hover{
+  background:beige;
+  color:#E2725B;
+}
+  .parag{
+    font-size:2rem;
+    font-weight:500;
+    font-family:Italianno;
+    text-align:center;
+    margin-top:3%;
+    background-color:beige;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+  .footer-section{
+    background:#99334C;
+    height:20vh;
+    display:flex column;
+    outline:3px solid blue;
+ }
+
+.carms{
+  display:flex column;
+  justify-content:center;
+  align-items:center;
 }
