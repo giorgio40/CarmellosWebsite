@@ -434,3 +434,45 @@ a{
   font-style:italic;
   color:#99334C;
 }
+.dinner-header{
+  margin-top:5%;
+  text-align:center;
+  font-family:Italianno;
+  font-weight:bold;
+  font-size:4rem;
+  color:#e2725b;
+}
+
+.background{
+  background-repeat: no-repeat cover;
+  background-size: cover;
+  height: 290vh;
+}
+
+.section{
+  font-family:Italiana, serif;
+  font-weight:bold;
+  font-style:italic;
+  font-size:1.8rem;
+  color:#FADEB6;
+  text-align:center;
+  margin-top:3%;
+
+}
+
+.item{
+  font-size:1.5rem;
+  text-align:center;
+  margin-top:2%;
+  color:#8b0000;
+  font-weight: bold;
+}
+
+.item-description{
+  font-family:Italiana;
+  font-weight:bold;
+  font-size:1rem;
+  color:white;
+  text-align:center;
+  margin-top:1%;
+}
