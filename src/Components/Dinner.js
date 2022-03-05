@@ -98,6 +98,7 @@ function Dinner() {
       <p className="item-description">Chicken breast, crabmeat stuffing, sliced artichoke hearts, mozzarella, lemon butter sauce, capellini </p>
       <p className="item">Saltamboca alla Romana $27</p>
       <p className="item-description">Veal medallions, sage, proscuito, mozzarella, demi-glace</p>
+      <p className="item-description">All Entrees come with bread & butter and a house salad with our homeade creamy Italian dill dressing</p>
     </animated.div>
   </div>
   );
