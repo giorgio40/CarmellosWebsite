@@ -3,10 +3,6 @@ import React from "react";
 function Footer() {
 
 
-
-
-
-
   return (
     <section className="footer">
       <section className="footer-name">
