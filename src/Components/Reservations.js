@@ -47,7 +47,7 @@ function Reservations() {
         <div
           className="container"
           style={{ backgroundImage: `url(${diningroom})` }}
-          c
+          
         >
           <p className="paragraph">
             Carmello's is open for dinner only. Our hours are Tuesday-Sunday from 5pm to 9:00pm
