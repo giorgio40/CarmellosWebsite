@@ -14,7 +14,7 @@ function About() {
           restauranteurs in 1987 in Manassas, Virginia. They featured Fine
           Northern Italian Cuisine.
           <br />
-          The restaurant was i9mmediately a tremendous success. They won many
+          The restaurant was immediately a tremendous success. They won many
           awards like the Silver spoon award and have every paper including the
           Washington Post to write an article
           <br />
