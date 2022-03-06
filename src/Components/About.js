@@ -4,7 +4,7 @@ import picture from "../images/momanddad.jpg";
 function About() {
   return (
     <div className="wrapper">
-      <h3 className="about">About us</h3>
+      <h3 className="about">About Us</h3>
       <div className="img-container">
         <img className="img" src={picture} alt="" />
       </div>
@@ -27,7 +27,7 @@ function About() {
           <br />
           The wanted to bring Carmello's to Charlottesville for their customers
           to experience a quaint Italian restaurant offering authentic Northern
-          Italian cuisine with a great winelist. <br />
+          Italian cuisine with a great winelist, <br />
           professional service with a old world atmosphere. The restaurant over
           the last 30 years of fruition has developed a great clientele and they
           are greatly appreciated. <br /> Bill has retired and Stella runs the

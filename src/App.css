@@ -173,6 +173,7 @@ table {
   font-size:1.5rem;
   color:#e2725b;
   font-style:italic;
+  opacity:.6;
 
 }
 
@@ -1114,146 +1115,89 @@ a{
 }
 
 @media (min-width:800px) {
-  .nav {
-    display: flex;
-    background: #88bb63;
-    height: 15vh;
-    justify-content: space-around;
-    opacity: 0.8;
-    background:#800020;
+  .nav{
+    height:56vh;
   }
-  
   .nav-links {
-    display: flex;
+    display: flex column;
     justify-content: space-evenly;
-    width: 50%;
-    align-items: center;
-    list-style: none;
-    font-size: 1.5rem;
-    font-family: "Italianno", serif;
+  
+   
     
   }
   
-  .nav-links li {
-    color: #e2725b;
-    font-size:2rem;
-    text-shadow: 2px 2px black;
-  }
+
   
-  .nav-links li:hover{
-    color:gold;
+
     
-  }
+  
   
   .H2{
-    font-family: Italiana;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top:3%;
-    font-style: italic;
-    color:  #fad6a5;
-    font-weight:500;
+ 
   
   }
   
   
-  .nav {
-    text-align: center;
-  }
+
   
-  .carmslogo {
-    height: 15vh;
-  }
+
   
    .container-img {
-    background-repeat: no-repeat cover;
-    background-size: cover;
-    height: 100vh;
-    margin-top: 3%;
-    font-size: 2rem;
+  
+    height: 80vh;
+   
   } 
   
   .anim-h1{
-    font-size:4.5rem;
-    color: #e2725b ;
-    font-family:Italianno;
-    font-weight:bold;
-    text-align:center;
-    color:#800020;
+    font-size:2.8rem;
+ 
     
   }
   
   .anim-p{
-    text-align:center;
-    font-family:Italiana serif;
-    font-weight:400;
-    font-size:2.7rem;
-    color:#F8F0E3;
+   
+    font-size:2rem;
   
   }
   
   .anim-p2{
-    text-align:center;
-    margin-top:5% !important;
-    color:#F8F0E3;
-    font-weight:400;
-    font-family:Italiana serif;
-    font-size:2.7rem;
+ 
+    font-size:2rem;
   
    
   
   }
   
   .anim-p3{
-    text-align:center;
-    margin-top:5%;
-    color:#F8F0E3;
-    font-family:Italiana serif;
-    font-weight:500;
-    font-size:2.7rem;
+  
+    font-size:2rem;
   }
   
   .button-container{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-top:5%;
+
+    margin-top:7%;
     
   }
   
   
   
   .cta-menu{
-    text-align:center;
-    padding:24px 36px;
-    border-radius:15px;
-    background:#800020;
-    font-family:Italianno serif;
-    font-size:1.5rem;
-    color:#e2725b;
-    font-style:italic;
+    padding:18px 30px;
+    
   
   }
   
-  .cta-menu:hover{
-    color:grey;
-    background:blanchedalmond;
   
-  }
   
-  .Link{
-    text-decoration: none;
-  }
+  
   
   .wine-section{
-      background-repeat: no-repeat cover;
-      background-size:cover;
-      max-height: 100%;
-      margin-top: 3%;
-      font-size: 1.5rem;
-      text-align:center;
-      display:flex;
-      justify-content: center;
-      color:beige;
+   
+    
+      
+    
   }
   
       table th{
@@ -1264,204 +1208,69 @@ a{
         
       }
   
-      table td{
-        padding:10px;
-        font-weight:bold;
-        font-family:Italianno;
-        font-size:2.3rem;
-        color:#F7E7CE;
-      }
-      
+   
   .wine-heading{
-    font-weight:bold;
-    font-family:Italianno;
-    font-size:4rem;
-    color:#e2725b;
-    text-align:center;
+    font-weight:500;
+    font-size:3rem;
+  
    
   }
-    .wine{
-      font-size:3rem;
-      font-family:Italianno;
-      font-weight:500;
-      margin-top:3%;
-      color:#9A3B4E;
-    }
-  
-  .reservation-form input{
-    display:flex column;
-    justify-content:center;
-    align-items:center;
+
+  .ant-table-row td{
+    font-size:1.9rem;
   }
+  
+  .reservation-form label{
+    font-size:1rem;
+  }
+ 
   .reservations{
-    font-size:4rem;
-    text-align:center;
-    font-weight:bold;
-    font-family:Italianno;
-    max-height:15vh;
-    margin-top:5%;
+    font-size:3rem;
+    
   
   }
-  .reservation-container{
-    background:beige;
+ 
   
-  
-  }
-  
+    
   
   
   
   
   .container{
-    background-repeat: no-repeat cover;
-    background-size: cover;
-    height: 130vh;
+
+    height: 100vh;
     font-size: 2rem;
    
    
   } 
-  .form-div .reservation-form{
-    display:flex column;
-    justify-content:center;
-    align-items:center;
-    height:50vh;
-    margin-top:4%;
-    width:100%;
-    
+
   
-  }
-  
-  input{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    width:18%;
-    height:5vh;
-    
-  }
+
   
   
   
   
   
   .paragraph{
-    font-size:2.5rem;
-    color: #99334D;
-    text-align:center;
-    font-family:Italiana,serif;
-    font-weight:500;
-    font-style:italic;
-    margin-top:4%;
+    font-size:1.8rem !important;
+ 
   
     
   
   }
   
-  label{
-    color:#F5F5DC;
-    font-size:1.4rem;
-    display:flex;
-    justify-content:center;
-    margin:1%;
-    font-weight:bold;
-  }
+
   
-  
-  .div-button{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:4%;
-  
-  }
+ 
   
   .div-button button{
-    padding:22px 100px;
-    border-radius:15px;
-    background:#E2725B;
-    opacity:.7;
-    color:beige;
-  }
-  .div-button button:hover{
-    background:beige;
-    color:#E2725B;
-  }
-    .parag{
-      font-size:2rem;
-      font-weight:500;
-      font-family:Italianno;
-      text-align:center;
-      margin-top:3%;
-      background-color:beige;
-    }
-  
-  
-    .footer-section{
-      background:#99334C;
-      height:20vh;
-      display:flex column;
-      outline:3px solid blue;
-   }
-  
-  .carms{
-    display:flex column;
-    justify-content:center;
-    align-items:center;
+    padding:22px 90px;
+   
   }
   
-  .footer{
-    background:#fad6a5;
-    opacity:.8;
-    font-size:1.5rem;
-    display:flex column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:#b11226;
-    font-weight:bold;
-    margin-top:3%;
-    max-height:50vh !important;
+  
+  
     
-  }
-  
-  a{
-    text-decoration:none;
-    color:#800020;
-  }
-  
-  .footer-name {
-    font-family: Italianno, serif;
-    font-size:2rem;
-    margin-bottom:1%;
-    margin-top:4%;
-  }
-  
-  .footer-hours{
-    font-family:Italiana, serif;
-    font-style:italic;
-    margin-bottom:1%;
-    padding:1%;
-  }
-  
-  .footer-number{
-    font-family: Italianno, serif;
-    font-size:2rem;
-    margin-bottom:1%;
-  
-  }
-  
-  .copyright{
-    margin-top:2%;
-  }
-  
-  .footer-contact{
-    font-family: serif;
-    font-size:1.5rem;
-    font-style:italic;
-  }
   
   .about{
     font-family:Italianno, serif;
@@ -1484,56 +1293,171 @@ a{
   }
   
   .about-paragraph{
-    text-align:center;
-    margin-top:4%;
-    font-weight:bold;
-    font-family:Italiana;
-    font-size:1.5rem;
-    font-style:italic;
-    color:#99334C;
+
+    font-size:1.3em;
+    
   }
   .dinner-header{
-    margin-top:5%;
-    text-align:center;
-    font-family:Italianno;
     font-weight:bold;
-    font-size:4rem;
-    color:#e2725b;
+    font-size:3rem;
   }
   
   .background{
-    background-repeat: no-repeat cover;
-    background-size: cover;
-    height: 290vh;
+  
+    height: 180vh;
   }
   
-  .section{
-    font-family:Italiana, serif;
-    font-weight:bold;
-    font-style:italic;
-    font-size:1.8rem;
-    color:#FADEB6;
-    text-align:center;
-    margin-top:3%;
-  
-  }
+
   
   .item{
+    font-size:1.1rem;
+   
+  
+  }
+  .section{
     font-size:1.5rem;
-    text-align:center;
-    margin-top:2%;
-    color:#8b0000;
-    font-weight: bold;
   }
   
-  .item-description{
-    font-family:Italiana;
-    font-weight:bold;
-    font-size:1rem;
-    color:white;
-    text-align:center;
-    margin-top:1%;
-  }
   
 }
 
+@media (min-width: 1000px) {
+
+
+  .nav {
+    display: flex;
+    background: #88bb63;
+    height: 15vh;
+    justify-content: space-around;
+    opacity: 0.8;
+    background:#800020;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Italianno", serif;
+    
+  }
+  
+  .nav-links li {
+    color: #e2725b;
+    font-size:2rem;
+    text-shadow: 2px 2px black;
+  }
+  
+  .nav-links li:hover{
+    color:gold;
+    
+  }
+
+  .H2{
+    margin:auto;
+  }
+
+  .carmslogo{
+    margin:auto;
+  }
+
+  .meal{
+    margin-top:3%;
+    text-align:center;
+    font-size:1.4rem;
+    color:#E5D8B6
+  }
+
+  .about-paragraph{
+
+    font-size:1.6rem;
+  }
+}
+
+@media(min-width:1200px){
+
+  .anim-h1{
+    font-size:4rem;
+  }
+
+ .anim-p{
+   font-size:2.7rem;
+ }
+
+ .anim-p2{
+   font-size:2.5rem;
+ }
+
+ .anim-p3{
+   font-size:2.6rem;
+ }
+
+ .reservations{
+   font-size:4rem;
+ }
+
+ .parag{
+   font-size:2.5rem !important;
+ }
+
+ .paragraph{
+   font-size:2rem !important;
+   font-weight:600;
+ }
+ .background{
+   height:230vh;
+ }
+ .section{
+   font-size:2rem;
+ }
+
+ .dinner-header{
+   font-size:4rem;
+ }
+
+ .item{
+   font-size:1.5rem;
+ }
+
+ .item-description{
+   font-size:1.3rem;
+ }
+
+ .wine-heading{
+   font-size:4rem;
+ }
+
+
+ .ant-table-cell{
+   font-size:2rem;
+ }
+
+
+
+}
+
+@media (min-width:1400px) {
+
+ .form-div label{
+   font-size:1.3rem !important;
+ }
+
+ .form-div input{
+   width:23%;
+ }
+
+ .div-button button{
+   padding:24px 100px;
+  
+ }
+
+
+
+
+
+
+
+
+}
