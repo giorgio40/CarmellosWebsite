@@ -51,7 +51,7 @@ function Dinner() {
           Cremini mushrooms crabmeat stuffing, herbs, butter
         </p>
         <h4 className="section">Zuppe</h4>
-        <p className="item">Tortellini en Brodo 6.5</p>
+        <p className="item">Tortellini en Brodo $6.5</p>
         <p className="item-description"> Veal tortellini, chicken broth </p>
         <p className="item">Straccitella Alla Romana $6.5</p>
         <p className="item-description">
@@ -109,7 +109,7 @@ function Dinner() {
         <p className="item-description">
           Veal medallions, sage, proscuito, mozzarella, demi-glace
         </p>
-        <p className="item-description">
+        <p className="meal">
           All Entrees come with bread & butter and a house salad with our
           homeade creamy Italian dill dressing
         </p>

@@ -20,7 +20,7 @@ function Footer() {
       </section>
       <section className="footer-number"> Phone: 434 977 5200</section>
       <section className="footer-contact">
-        <a href="mailto: georgehatzigeorgio@gmail.com">Contact US </a>
+        <a href="mailto: georgehatzigeorgio@gmail.com">Contact Us </a>
       </section>
     </section>
   );
