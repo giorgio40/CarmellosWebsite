@@ -873,13 +873,85 @@ a{
   
 }
 
+
+@media (min-width: 400px){
+  
+  .about-paragraph{
+    font-size:1rem;
+  }
+
+  .about{
+    font-size:2.5rem;
+  }
+
+  .nav{
+    height:66vh;
+    
+  }
+  
+  .nav-links{
+    display: block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;    
+  }
+
+  .paragraph{
+    font-weight:400;
+  }
+
+  .div-button{
+    margin-top:5%;
+  }
+
+  .div-button button{
+    padding:18px 22px;
+  }
+
+
+  .section{
+    font-size:1.2rem;
+
+  }
+  .item{
+    font-size:.8rem;
+  }
+
+  .item-description{
+    font-size:.6rem;
+  }
+  .background{
+    height:180vh;
+  }
+
+  .meal{
+    font-size:.9rem;
+    color:#e5d8b6;
+    text-align:center;
+    margin-top:3%;
+
+  }
+  .ant-table-cell{
+    display:flex row;
+    justify-content: flex-start;
+    align-items:center;
+    width:30%;
+
+
+  }
+
+
+
+}
+
 @media (min-width:600px){
 
 
   
   
   .nav {
-    height:52vh;
+    height:75vh;
     display:inline-block;
     overflow:hidden;
     width:100%;
@@ -1080,7 +1152,7 @@ a{
 
     font-weight:500;
     font-family:Italiana;
-    font-size:1.3rem;
+    font-size:1rem;
     
   }
   .dinner-header{
@@ -1112,11 +1184,15 @@ a{
    
   }
 
+  .footer{
+    height:62vh;
+  }
+
 }
 
 @media (min-width:800px) {
   .nav{
-    height:56vh;
+    height:85vh;
   }
   .nav-links {
     display: flex column;
@@ -1126,7 +1202,13 @@ a{
     
   }
   
-
+  .meal{
+    font-size:1.1rem;
+    text-align:center;
+    margin-top:6%;
+    color:#ebd8b0;
+    font-weight:bold;
+  }
   
 
     
@@ -1269,7 +1351,7 @@ a{
   .about{
     font-family:Italianno, serif;
     font-weight:bold;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align:center;
     margin-top:4%;
     color:#99324C;
@@ -1428,11 +1510,18 @@ a{
    font-size:2rem;
  }
 
-
+ .about-paragraph{
+   font-size:1.4rem;
+   margin:auto;
+ }
 
 }
 
 @media (min-width:1400px) {
+
+  .container-img{
+    height:90vh;
+  }
 
  .form-div label{
    font-size:1.3rem !important;
