@@ -885,7 +885,7 @@ a{
   }
 
   .nav{
-    height:66vh;
+    height:56vh;
     
   }
   
@@ -896,7 +896,9 @@ a{
     margin-right:auto;
     width: 50%;    
   }
-
+  .nav-links li{
+    margin-bottom:8%;
+  }
   .paragraph{
     font-weight:400;
   }
@@ -941,8 +943,16 @@ a{
 
   }
 
+  .container{
+    height:85vh;
+  }
+  .background{
+    height:105vh;
+  }
 
-
+  .meal{
+    margin-top:5%;
+  }
 }
 
 @media (min-width:600px){
@@ -951,7 +961,7 @@ a{
   
   
   .nav {
-    height:75vh;
+    height:50vh;
     display:inline-block;
     overflow:hidden;
     width:100%;
