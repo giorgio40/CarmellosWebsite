@@ -1192,13 +1192,7 @@ a{
   
   
   
-  
-  .wine-section{
-   
-    
-      
-    
-  }
+
   
       table th{
         padding: 3rem;
@@ -1450,8 +1444,123 @@ a{
 
  .div-button button{
    padding:24px 100px;
+
+   
   
  }
+
+ .background{
+   background:cover no-repeat;
+   height:250vh;
+ }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:1600px) {
+
+
+
+  
+  .H2{
+    font-size: 1.4rem;
+  
+  }
+  
+
+  
+  .carmslogo {
+    height: 15vh;
+  }
+  
+   .container-img {
+
+    height: 100vh;
+    margin-top: 5%;
+   
+  } 
+  
+  .anim-h1{
+    font-size:5rem;
+   
+  }
+  
+  .anim-p{
+    text-align:center;
+    font-family:Italiana serif;
+    font-weight:400;
+    font-size:2.7rem;
+    color:#F8F0E3;
+  
+  }
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+ 
+  
+
+ 
+  
+
+  
+  
+    .footer{
+      height:35vh;
+   }
+  
+  .carms{
+    display:flex column;
+    justify-content:center;
+    align-items:center;
+  }
+  
+
+  
+ 
+  
+
+
+  .about-paragraph{
+  
+    font-size:2rem  !important;
+   
+  }
+
+  
+  .background{
+    background:no-repeat cover !important; 
+    height:260vh;
+  }
+
+
+  
+
+  
+
 
 
 
