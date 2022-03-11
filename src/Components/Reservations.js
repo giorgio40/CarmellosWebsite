@@ -119,7 +119,7 @@ function Reservations() {
                 required
               />
               <div className="div-button">
-                <button type="submit" name="submit">
+                <button className="btn"type="submit" name="submit">
                   Make Reservation
                 </button>
               </div>
