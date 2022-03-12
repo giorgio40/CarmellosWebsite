@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import diningroom from "../images/diningroom.jpg";
+import diningroom2 from "../images/diningroom2.jpg";
 import { sendForm, init } from "emailjs-com";
 init("DlhTOjdE7Pqq5UJHA");
 
@@ -46,7 +46,7 @@ function Reservations() {
 
         <div
           className="container"
-          style={{ backgroundImage: `url(${diningroom})` }}
+          style={{ backgroundImage: `url(${diningroom2})` }}
           
         >
           <p className="paragraph">

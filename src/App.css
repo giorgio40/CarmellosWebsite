@@ -328,7 +328,7 @@ label{
   opacity:.7;
   color:beige;
 }
-.div-button .btn:hover{
+.div-button button:hover{
   background:beige;
   color:#E2725B;
 }
@@ -346,6 +346,7 @@ label{
     background:#99334C;
     height:20vh;
     display:flex column;
+    outline:3px solid blue;
  }
 
 .carms{
@@ -444,15 +445,11 @@ a{
 }
 
 .background{
-  background-repeat: no-repeat;
-  background-size:100% 100%;
+  background-repeat: no-repeat cover;
+  background-size: cover;
+  height: 290vh;
 }
-.meal{
-  margin-top:3%;
-  font-size:1.6rem;
-  color:#C3644B;
-  text-align:center;
-}
+
 .section{
   font-family:Italiana, serif;
   font-weight:bold;
@@ -481,736 +478,641 @@ a{
   margin-top:1%;
 }
 
-/* @media (max-width: 480px){
+@media screen and (max-width: 599px){
 
- 
-
+  .link-container{
+    display:flex
+    }
+  
   .nav {
-    
     height:60vh;
-    display:inline-block;
     width:100%;
+    display:inline-block;
   
   }
-  .carmslogo{
-    margin-top:3%;
-    width:15%;
-    height:20vh;
-  }
+  
   .nav-links {
-    display:inline-block;
-    margin-top:10%;
     width: 100%;
-    font-family: "Italianno", serif;
+    display:inline-block;
+
     
   }
   
   .nav-links li {
-    margin:4%;
-    
+    margin:2%;
+    display:flex column;
+ 
   }
   
-
-  .carmslogo {
-    height: 15vh;
-  }
-  
-  .anim-h1{
-    font-size:2.5rem;
-
+  .carmslogo{
+    width:20%;
+    margin-top:3%;
   }
   .container-img{
-    height:65vh;
-  }
-  .anim-p{
-    font-size:1.5rem;
-  
-  }
-  
-  .anim-p2{
-    font-size:1.5rem;
-  
-   
-  
-  }
-  
-  .anim-p3{
-    font-size:1.5rem;
-  }
-  
-  .button-container{
-    margin-top:8%;
-    
-  }
-  
-  
-  
-  .cta-menu{
-    padding:10px 16px;
- 
-  
-  }
-  
- 
-  
- 
-  
-  .wine-section{
-      background-repeat: no-repeat cover;
-      background-size:cover;
-      max-height: 100%;
-      margin-top: 3%;
-      font-size: 1.5rem;
-      text-align:center;
-      display:flex;
-      justify-content: center;
-      color:beige;
-  }
-  
-      table th{
-        padding: 3rem;
-        color:grey;      
-       
-  
-        
-      }
-  
-      table td{
-        padding:10px;
-        font-weight:bold;
-        font-family:Italianno;
-        font-size:2.3rem;
-        color:#F7E7CE;
-      }
-      
-  .wine-heading{
-    font-weight:bold;
-    font-family:Italianno;
-    font-size:4rem;
-    color:#e2725b;
-    text-align:center;
-   
-  }
-    .wine{
-      font-size:3rem;
-      font-family:Italianno;
-      font-weight:500;
-      margin-top:3%;
-      color:#9A3B4E;
+    max-height:80% 
     }
-  
-  .reservation-form input{
-    display:flex column;
-    justify-content:center;
-    align-items:center;
-  }
-  .reservations{
-    font-size:4rem;
-    text-align:center;
-    font-weight:bold;
-    font-family:Italianno;
-    max-height:15vh;
-    margin-top:5%;
-  
-  }
-  .reservation-container{
-    background:beige;
-  
-  
-  }
-  
-  
-  
-  
-  
-  .container{
-    background-repeat: no-repeat cover;
-    background-size: cover;
-    height: 80vh;
-    font-size: 2rem;
-   
-   
-  } 
-  .form-div .reservation-form{
-    display:flex column;
-    justify-content:center;
-    align-items:center;
-    height:50vh;
-    margin-top:4%;
-    width:100%;
-    
-  
-  }
-  
-  input{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    width:18%;
-    height:5vh;
-    
-  }
-  
-  
-  
-  
-  
-  .paragraph{
-    font-size:1.5rem !important;
-
-  
-    
-  
-  }
-  
-  label{
-    color:#F5F5DC;
-    font-size:1.4rem;
-    display:flex;
-    justify-content:center;
-    margin:1%;
-    font-weight:bold;
-  }
-  
-  
-  .div-button{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:4%;
-  
-  }
-  
-  .div-button button{
-    padding:22px 100px;
-    border-radius:15px;
-    background:#E2725B;
-    opacity:.7;
-    color:beige;
-  }
-  .div-button button:hover{
-    background:beige;
-    color:#E2725B;
-  }
-    .parag{
-      font-size:1.7rem !important;
-  
-    }
-  
-
-  
-  .carms{
-    display:flex column;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .footer{
-    font-size:1.1rem;
-   
-   
-    
-  }
-  
- 
-  .footer-name{
-    font-size:1.5rem
-  }
- 
-  
-
-  
-  .footer-number{
-    font-size:1.6rem;
-  
-  }
-  
- 
-  
-  .footer-contact{
-   margin-bottom:3%;
-   font-size:1.3rem;
-  }
-  
-  .about{
-    font-weight:bold;
-    font-size: 2.5rem;
-   
-  }
-  
-  .img-container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .img{
-    border-radius:50%;
-    max-height:30vh;
-  }
-  
-  .about-paragraph{
-    font-size:1rem;
-  }
-  .dinner-header{
-    margin-top:5%;
-    text-align:center;
-    font-family:Italianno;
-    font-weight:bold;
-    font-size:4rem;
-    color:#e2725b;
-  }
-  
-  .background{
-    background-repeat: no-repeat cover;
-    background-size: cover;
-    height: 290vh;
-  }
-  
-  .section{
-    font-family:Italiana, serif;
-    font-weight:bold;
-    font-style:italic;
-    font-size:1.8rem;
-    color:#FADEB6;
-    text-align:center;
-    margin-top:3%;
-  
-  }
-  
-  .item{
-    font-size:1.5rem;
-    text-align:center;
-    margin-top:2%;
-    color:#8b0000;
-    font-weight: bold;
-  }
-  
-  .item-description{
-    font-family:Italiana;
-    font-weight:bold;
-    font-size:1rem;
-    color:white;
-    text-align:center;
-    margin-top:1%;
-  }
-
-  .meal{
-    font-size:1.2rem;
-    color:#da562f;
-    margin-top:7%;
-    text-align:center;
-  }
-
-  .reservations{
-    font-size:2.3rem;
-
-  }
-
-  .parag{
-    font-size:1.6rem;
-  }
-
-.paragraph{
-  font-size:1.4rem;
-}
-
-  label{
-    font-size:1rem;
-  }
-
-  .reservation-form input{
-  
-    width:35%;
-  }
-
- 
-  .section{
-    font-size:1.5rem;
-  }
-  .div-button button{
-    padding:18px 44px;
-    margin-top:2%;
-  }
-  .dinner-header{
-    font-size:2.4rem;
-  }
-  .item-description{
-    font-size:1rem;
-  }
-  .background{
-    height:150vh;
-  }
-  .item{
-    font-size:1rem;
-  }
-
-  .wine-heading{
-    font-size:2.5rem;
-  }
-
-  .ant-table-thead{
-    font-size:1rem;
-    display:flex column;
-    
-  }
-
-  
-  tr td{
-    font-size:1.3rem;
-  }
-
- 
-  
-}
- */
-
-
-
-/* @media (min-width:768px){
-
-
-  
-  
-  .nav {
-    height:55vh !important;
-    display:inline-block;
-    width:100%;
-
-  
-  }
-  
-  .nav-links {
-    display: block;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    width: 50%;    
-  }
-
-  .nav-links li{
-    margin:6%;
-  }
-  
-
 
   
 
-
-
-  .carmslogo {
-    height: 10vh;
-    margin-top:3%;
-  }
   
-   .container-img {
- 
-    height: 65vh;
-    margin-bottom:7%;
-  } 
+
   
   .anim-h1{
     font-size:2rem;
- 
-    
+   
   }
   
   .anim-p{
+    text-align:center;
     font-size:1.5rem;
   
   }
   
   .anim-p2{
-   
+    text-align:center;
     font-size:1.5rem;
-  
    
   
   }
   
   .anim-p3{
-   
-    font-size:1.5rem;
+    text-align:center;
+    font-size:1.3rem;
+    margin-bottom:5%; 
   }
   
   .button-container{
-    
-    margin-top:9%;
+   
+    margin-top:15%;
     
   }
   
   
   
   .cta-menu{
-    padding:18px 18px;
-  
+    text-align:center;
+    padding:24px 14px;
+ 
   
   }
-
-
   
-  .wine-section{
-     
-      max-height: 100%;
-      font-size: 1rem;
+  .paragraph{
+    font-size:1.5rem;
+    font-weight:bold;
+    font-family:Italiana serif;
+  }
+
+  .form-div label input{
+    width:30%;
+    text-align:center;
+  }
+
+  input{
+    width:50%;
+  }
+  .container{
+    max-height:95vh;
+  }
+
+  .background{
+    height:200vh;
+  }
+
+  .meal{
+    font-size:1.1rem;
+    color:#99334D;
+    text-align:center;
+    margin-top:3%;
+  }
+
+  .item{
+    font-weight:400;
+    font-size:1 rem;
+  }
+
+  .item-description{
+    font-weight:400;
+  }
+}
+
+
+  @media screen and (max-width: 599px){
+  
+    .link-container{
+      display:flex
+      }
     
-  }
+    .nav {
+      height:60vh;
+      width:100%;
+      display:inline-block;
+    
+    }
+    
+    .nav-links {
+      width: 100%;
+      display:inline-block;
   
-      table th{
-      font-size:1.2rem;      
-       
-  
-        
+      
+    }
+    
+    .nav-links li {
+      margin:2%;
+      display:flex column;
+   
+    }
+    
+    .carmslogo{
+      width:20%;
+      margin-top:3%;
+    }
+    .container-img{
+      max-height:80% 
       }
   
     
+  
+    
+  
+    
+    .anim-h1{
+      font-size:2rem;
+     
+    }
+    
+    .anim-p{
+      text-align:center;
+      font-size:1.5rem;
+    
+    }
+    
+    .anim-p2{
+      text-align:center;
+      font-size:1.5rem;
+     
+    
+    }
+    
+    .anim-p3{
+      text-align:center;
+      font-size:1.3rem;
+      margin-bottom:5%; 
+    }
+    
+    .button-container{
+     
+      margin-top:15%;
       
-  .wine-heading{
-    margin-top:4%;
-    font-size:3rem;
-
+    }
+    
+    
+    
+    .cta-menu{
+      text-align:center;
+      padding:24px 14px;
    
-  }
-    .ant-table-cell{
-      font-size:1.7rem;
+    
+    }
+    
+    .paragraph{
+      font-size:1.5rem;
+      font-weight:bold;
+      font-family:Italiana serif;
+    }
+  
+    .form-div label input{
+      width:30%;
+      text-align:center;
+    }
+  
+    input{
+      width:50%;
+    }
+    .container{
+      max-height:95vh;
+    }
+  
+    .background{
+      height:200vh;
+    }
+  
+    .meal{
+      font-size:1.1rem;
+      color:#99334D;
+      text-align:center;
+      margin-top:3%;
+    }
+  
+    .item{
+      font-weight:400;
+      font-size:1 rem;
+    }
+  
+    .item-description{
       font-weight:400;
     }
 
-  .reservation-form input{
-    width:34%;
-  }
- 
-  .reservations{
-    font-size:  3rem;
 
-  
+
+
+
   }
 
- .reservation-container p{
-   font-size:1.6rem;
- }
-  
-  
-  
-  
-  .container{
-  
-    height: 90vh;
-   
-   
-  } 
+@media screen and (min-width:600px) {
 
-  
-  label{
-    font-size:1rem;
     
-  }
-  
-  
- 
-  
-  .div-button button{
-    margin-top:3%;
-    padding:18px 44px;
     
-  }
-    .reservations{
-      font-size:3rem !important;
+    .nav-links {
+      display: flex;
+      justify-content: space-evenly;
+      width: 50%;
+      align-items: center;
+      list-style: none;
+      font-size: 1.5rem;
+      font-family: "Italianno", serif;
+      
     }
+    
+    
+    .nav {
+      display:inline-block;
+      height:50vh;
+      text-align:center;
+      width: 100%;
 
-    .parag{
-      font-size:1.8rem;
     }
-  
-  
-    .footer{
-      height:30vh !important;
+    
+    .carmslogo {
+      margin-top:3%;
+      height: 15vh;
+    }
+    
+    .nav-links{
+      display:inline-block;
+      position:relative;
+      top:4%;
      
-   }
-  
-   .footer-contact a{
-     font-size:1.4rem;
-   }
-  
- 
+    }
+     .container-img {
+      background-repeat: no-repeat cover;
+      background-size: cover;
+      height: 95vh;
+      margin-top: 3%;
+      font-size: 2rem;
+    } 
     
-  
-  
-  
-  
-  .footer-name {
-    font-size:1.8rem;
-  }
-  
-  .footer-hours{
-    font-size:1.4rem;
-   
-  }
-  
-  .footer-number{
-    font-family: Italianno, serif;
-    font-size:1.5rem;
-  
-  }
-  
-
-  
-  .footer-contact{
-    font-family:serif;
-    font-size:1.2rem;
-  }
-  
-  .about{
-    font-family:Italianno, serif;
-    font-size:3rem;
-  }
-  
- 
-  
-  .img{
-    border-radius:50%;
-    max-height:30vh;
-  }
-  
-  .about-paragraph{
-
-    font-weight:500;
-    font-family:Italiana;
-    font-size:1rem;
+    .anim-h1{
+      font-size:3rem;
+     
+      
+    }
     
-  }
-  .dinner-header{
-    font-weight:500;
-    font-size:2.6rem;
-    margin-bottom:5%;
-  }
-  
-  .background{
-   
-    height: 170vh !important;
-  }
-  
-  .section{
- 
-    font-size:1.4rem;
-  
-  }
-
-  .meal{
-    font-size:1.2rem;
-    margin-top:5%;
-    color:#da562f;
-    text-align:center;
-
-
-
-  }
-  
-  .item{
-    font-size:1.4rem;
- 
-  }
-  
-  .item-description{
-    font-family:Italiana;
-    font-weight:bold;
-    font-size:1rem;
-   
-  }
-
-  .footer{
-    height:62vh;
-  }
-
-} */
-
-
-@media screen and (min-device-width: 1200px) {
-
-  .nav {
-    display: flex;
-    background: #88bb63;
-    height: 15vh !important;
-    justify-content: space-evenly !important;
-    background:#800020;
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    align-items: center;
-    list-style: none;
-    font-size: 1.5rem;
-    font-family: "Italianno", serif;
+    .anim-p{
+      font-size:1.7rem;
     
-  }
-  
-  .nav-links li {
-    color: #e2725b;
-    font-size:2rem;
-    text-shadow: 2px 2px black;
-  }
-  
-  .nav-links li:hover{
-    color:gold;
+    }
     
+    .anim-p2{
+      
+      font-size:1.6rem;
+    
+     
+    
+    }
+    
+    .anim-p3{
+      
+      font-size:1.6rem;
+    }
+    
+    .button-container{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin-top:5%;
+      
+    }
+    
+    
+    
+    .cta-menu{
+      text-align:center;
+      padding:24px 36px;
+      border-radius:15px;
+      background:#800020;
+      font-family:Italianno serif;
+      font-size:1.5rem;
+      color:#e2725b;
+      font-style:italic;
+      opacity:.6;
+    
+    }
+    
+    .cta-menu:hover{
+      color:grey;
+      background:blanchedalmond;
+    
+    }
+    
+    .Link{
+      text-decoration: none;
+    }
+    
+    .wine-section{
+        background-repeat: no-repeat cover;
+        background-size:cover;
+        max-height: 100%;
+        margin-top: 3%;
+        font-size: 1.5rem;
+        text-align:center;
+        display:flex;
+        justify-content: center;
+        color:beige;
+    }
+    
+        table th {
+          padding: 3rem;
+          color:grey;      
+         
+    
+          
+        }
+    
+        table td{
+          padding:10px;
+          font-weight:bold;
+          font-family:Italianno;
+          font-size:2.3rem;
+          color:#F7E7CE;
+        }
+        
+    .wine-heading{
+      font-weight:bold;
+      font-family:Italianno;
+      font-size:4rem;
+      color:#e2725b;
+      text-align:center;
+     
+    }
+      .wine{
+        font-size:3rem;
+        font-family:Italianno;
+        font-weight:500;
+        margin-top:3%;
+        color:#9A3B4E;
+      }
+    
+    .reservation-form input{
+      display:flex column;
+      justify-content:center;
+      align-items:center;
+    }
+    .reservations{
+      font-size:4rem;
+      text-align:center;
+      font-weight:bold;
+      font-family:Italianno;
+      max-height:15vh;
+      margin-top:5%;
+    
+    }
+    .reservation-container{
+      background:beige;
+    
+    
+    }
+    
+    
+    
+    
+    
+    .container{
+      background-repeat: no-repeat cover;
+      background-size: cover;
+      height: 130vh;
+      font-size: 2rem;
+     
+     
+    } 
+    .form-div .reservation-form{
+      display:flex column;
+      justify-content:center;
+      align-items:center;
+      height:50vh;
+      margin-top:4%;
+      width:100%;
+      
+    
+    }
+    
+    input{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      margin-left:auto;
+      margin-right:auto;
+      width:18%;
+      height:5vh;
+      
+    }
+    
+    
+    
+    
+    
+    .paragraph{
+      font-size:2.5rem;
+      color: #f7e7ce !important;
+      text-align:center;
+      font-family:Italiana,serif;
+      font-weight:500;
+      font-style:italic;
+      margin-top:4%;
+    
+      
+    
+    }
+    
+    label{
+      color:#F5F5DC;
+      font-size:1.4rem;
+      display:flex;
+      justify-content:center;
+      margin:1%;
+      font-weight:bold;
+    }
+    
+    
+    .div-button{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-top:4%;
+    
+    }
+    
+    .div-button button{
+      padding:22px 100px;
+      border-radius:15px;
+      background:#E2725B;
+      opacity:.7;
+      color:beige;
+    }
+    .div-button button:hover{
+      background:beige;
+      color:#E2725B;
+    }
+      .parag{
+        font-size:2rem;
+        font-weight:500;
+        font-family:Italianno;
+        text-align:center;
+        margin-top:3%;
+        background-color:beige;
+      }
+    
+    
+      .footer-section{
+        background:#99334C;
+        height:20vh;
+        display:flex column;
+        outline:3px solid blue;
+     }
+    
+    .carms{
+      display:flex column;
+      justify-content:center;
+      align-items:center;
+    }
+    
+    .footer{
+      background:#fad6a5;
+      opacity:.8;
+      font-size:1.5rem;
+      display:flex column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      color:#b11226;
+      font-weight:bold;
+      margin-top:3%;
+      max-height:50vh !important;
+      
+    }
+    
+    a{
+      text-decoration:none;
+      color:#800020;
+    }
+    
+    .footer-name {
+      font-family: Italianno, serif;
+      font-size:2rem;
+      margin-bottom:1%;
+      margin-top:4%;
+    }
+    
+    .footer-hours{
+      font-family:Italiana, serif;
+      font-style:italic;
+      margin-bottom:1%;
+      padding:1%;
+    }
+    
+    .footer-number{
+      font-family: Italianno, serif;
+      font-size:2rem;
+      margin-bottom:1%;
+    
+    }
+    
+    .copyright{
+      margin-top:2%;
+    }
+    
+    .footer-contact{
+      font-family: serif;
+      font-size:1.5rem;
+      font-style:italic;
+    }
+    
+    .about{
+      font-family:Italianno, serif;
+      font-weight:bold;
+      font-size: 5rem;
+      text-align:center;
+      margin-top:4%;
+      color:#99324C;
+    }
+    
+    .img-container{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    
+    .img{
+      border-radius:50%;
+      max-height:50vh;
+    }
+    
+    .about-paragraph{
+      text-align:center;
+      margin-top:4%;
+      font-weight:bold;
+      font-family:Italiana;
+      font-size:1.5rem;
+      font-style:italic;
+      color:#99334C;
+    }
+    .dinner-header{
+      margin-top:5%;
+      text-align:center;
+      font-family:Italianno;
+      font-weight:bold;
+      font-size:4rem;
+      color:#e2725b;
+    }
+    
+    .background{
+      background-repeat: no-repeat cover;
+      background-size: cover;
+      height: 290vh;
+    }
+    
+    .section{
+      font-family:Italiana, serif;
+      font-weight:bold;
+      font-style:italic;
+      font-size:1.8rem;
+      color:#FADEB6;
+      text-align:center;
+      margin-top:3%;
+    
+    }
+    
+    .item{
+      font-size:1.5rem;
+      text-align:center;
+      margin-top:2%;
+      color:#8b0000;
+      font-weight: bold;
+    }
+    
+    .item-description{
+      font-family:Italiana;
+      font-weight:bold;
+      font-size:1rem;
+      color:white;
+      text-align:center;
+      margin-top:1%;
+    }
+    
+
+
   }
 
-  .container-img{
-    height:110vh;
-  }
+
+
   
-  .anim-h1{
-    font-size:4rem;
-  }
-
-
-
-  .H2{
-    margin:auto;
-  }
-
-  .carmslogo{
-    margin:auto;
-  }
-  .footer{
-    height:50vh;
-  }
- 
-  .wine-heading{
-    font-size:4rem;
-  }
-  .meal{
-    margin-top:3%;
-    text-align:center;
-    font-size:1.4rem;
-    color:#E5D8B6
-  }
-  .about{
-    font-size:4rem;
-  }
-  .about-paragraph{
-
-    font-size:1.5rem;
-  }
-  .img{
-    width:500px;
-  }
-
- .paragraph{
-   font-size:2rem !important;
-   font-weight:bold;
-   color:#C3644B !important;
- }
- .btn{
-   padding:18px 48px !important;
- }
- .container{
-   background-size:100% cover!important;
- }
-}
-

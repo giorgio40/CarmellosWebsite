@@ -1,5 +1,5 @@
 import React from "react";
-import dining from "../images/diningroom2.jpg";
+import dining from "../images/carms.jpg";
 import { animated, useSpring } from "react-spring";
 
 function Dinner() {
