@@ -511,6 +511,111 @@ a {
   margin-top: 1%;
 }
 
+@media (min-width: 400px) {
+
+  .nav{
+    height:50vh;
+    width: 100%;
+    display:block;
+  }
+
+  .nav-links{
+    display:inline-block;
+  }
+
+  .H2{
+    display:block;
+  }
+
+  .nav-links li{
+    margin:4%;
+  }
+
+  .anim-h1{
+    font-size:2.3rem;
+    font-weight:600;
+  }
+
+  .anim-p{
+    font-size:1.4rem;
+  }
+
+  .anim-p2{
+    font-size:1.3rem;
+  }
+
+  .anim-p3{
+    font-size:1.3rem;
+  }
+
+  .container-img{
+    height:60vh;
+  }
+
+  .cta-menu{
+    padding:12px 18px;
+  }
+
+ .reservations{
+   background-color:#f7e7ce !important;
+ }
+ .container{
+   height:85vh;
+ }
+ .paragraph{
+   font-size:1.4rem;
+ }
+
+ .reservation-form input{
+   width:55%;
+ }
+
+ .btn{
+   padding:18px 54px !important;
+ }
+
+ .background{
+   height:175vh;
+ }
+ .dinner-header{
+   font-size:2.8rem;
+ }
+
+ .item-section{
+   font-size:1.5rem;
+   color:#f7e7ce;
+   text-align:center;
+ }
+
+ .item{
+   font-size:1.3rem;
+ }
+
+ .item-description{
+   font-size:1.1rem;
+ }
+
+ .meal{
+   text-align: center;
+   color:#f7e7ce;
+   font-size:1.1rem;
+   margin:3%;
+ }
+
+ .ant-table-cell{
+   font-size:1.1rem;
+   font-weight:100;
+ }
+
+ .about{
+   font-size:2.5rem;
+ }
+
+ .about-paragraph{
+   font-size:1.2rem;
+ }
+}
+
 @media (min-width: 700px) {
   .nav {
     display: inline-block;
@@ -815,6 +920,10 @@ a {
 }
 
 @media(min-width:1392px) {
+
+  .anim-h1{
+    font-size:5rem !important;
+  }
 
   .H2{
     margin:auto;
