@@ -48,7 +48,7 @@ function Main() {
           <div className="button-container">
             <Link to="/dinnermenu">
               <button className="cta-menu">
-                {" "}
+               
                 Click here to see Dinner Menu
               </button>
             </Link>
