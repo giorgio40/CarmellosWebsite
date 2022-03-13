@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import diningroom2 from "../images/diningroom2.jpg";
+import carms from "../images/carms.jpg";
 import { sendForm, init } from "emailjs-com";
 init("DlhTOjdE7Pqq5UJHA");
 
@@ -14,7 +14,7 @@ function Reservations() {
 
   const inputEl = useRef();
   const [reservation, setReservation] = useState(initialState);
-  
+
   const onSubmit = (e) => {
     e.preventDefault();
     sendForm("Carmellos_Reservation", "template_9oxce3q", inputEl.current).then(
@@ -44,13 +44,10 @@ function Reservations() {
           Below.
         </p>
 
-        <div
-          className="container"
-          style={{ backgroundImage: `url(${diningroom2})` }}
-          
-        >
+        <div className="container" style={{ backgroundImage: `url(${carms})` }}>
           <p className="paragraph">
-            Carmello's is open for dinner only. Our hours are Tuesday-Sunday from 5pm to 9:00pm
+            Carmello's is open for dinner only. Our hours are Tuesday-Sunday
+            from 5pm to 9:00pm
           </p>
           <p className="paragraph">
             We can accomadate a reservation of 2 people up to large parties. The
@@ -119,7 +116,7 @@ function Reservations() {
                 required
               />
               <div className="div-button">
-                <button className="btn"type="submit" name="submit">
+                <button className="btn" type="submit" name="submit">
                   Make Reservation
                 </button>
               </div>

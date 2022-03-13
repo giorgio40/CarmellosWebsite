@@ -18,7 +18,7 @@ function Dinner() {
     >
       <animated.div style={props}>
         <h3 className="dinner-header">Carmello's Dinner Menu</h3>
-        <h4 className="section">Antipasti</h4>
+        <h4 className="item-section">Antipasti</h4>
         <p className="item">
           Carciofi Fritti $10 <br />
         </p>
@@ -50,14 +50,14 @@ function Dinner() {
         <p className="item-description">
           Cremini mushrooms crabmeat stuffing, herbs, butter
         </p>
-        <h4 className="section">Zuppe</h4>
+        <h4 className="item-section">Zuppe</h4>
         <p className="item">Tortellini en Brodo $6.5</p>
         <p className="item-description"> Veal tortellini, chicken broth </p>
         <p className="item">Straccitella Alla Romana $6.5</p>
         <p className="item-description">
           Chopped Spinach, Egg, chicken broth, parmesan cheese{" "}
         </p>
-        <h4 className="section">Secondo </h4>
+        <h4 className="item-section">Secondo </h4>
         <p className="item">Ravioli Cardinale $30</p>
         <p className="item-description">
           Lobster Ravioli, Crema Rosa sauce, caviar, lump crabmeat

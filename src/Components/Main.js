@@ -39,7 +39,7 @@ function Main() {
               Serving Fine Northern Italian Cusine since 1987
             </animated.p>
             <animated.p className="anim-p2" style={props}>
-              Extensive Wine List <br/> <br/> Old World Ambiance
+              Extensive Wine List <br /> <br /> Old World Ambiance
             </animated.p>
             <animated.p className="anim-p3">
               Travel To Italy without a Passport!
