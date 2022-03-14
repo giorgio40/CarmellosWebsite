@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import carms from "../images/carms.jpg";
+import carms from "../images/diningroom.jpg";
 import { sendForm, init } from "emailjs-com";
 init("DlhTOjdE7Pqq5UJHA");
 
