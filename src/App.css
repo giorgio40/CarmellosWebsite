@@ -888,5 +888,11 @@ a {
     width:40%;
   }
 
+  .container{
+    height:140vh;
+  }
 
+  .container-img{
+    height:145vh;
+  }
 }
