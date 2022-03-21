@@ -46,9 +46,9 @@ function Dinner() {
         <p className="item-description">
           Fresh calamari, floured, fried, marinara sauce
         </p>
-        <p className="item">Stuffed Mushroom Caps $12</p> mushrooms, crab
+        <p className="item">Stuffed Mushroom Caps $12</p> 
         <p className="item-description">
-          Cremini mushrooms crabmeat stuffing, herbs, butter
+          Cremini mushrooms,crabmeat stuffing, herbs, butter
         </p>
         <h4 className="item-section">Zuppe</h4>
         <p className="item">Tortellini en Brodo $6.5</p>

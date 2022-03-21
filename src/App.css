@@ -511,6 +511,232 @@ a {
   margin-top: 1%;
 }
 
+@media (min-width:300px){
+
+
+
+  .nav {
+    display: inline-block;
+    height:55vh;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin-top: 8%;
+    font-size:1rem;
+  }
+
+  .carmslogo {
+    margin-top: 3%;
+    height: 15vh;
+  }
+
+  .nav-links {
+    display: inline-block;
+    position: relative;
+    top: 4%;
+  }
+  .container-img {
+    height:90vh;
+  }
+  .button-container{
+  
+    max-width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:6%;
+  }
+  .cta-menu {
+    padding: 2px 4px !important;
+
+  }
+  .anim-h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .anim-p {
+    font-size: 1rem;
+  }
+
+  .anim-p2 {
+    font-size: 1rem;
+  }
+
+  .anim-p3 {
+    font-size: 1rem;
+  }
+
+  .reservations {
+    font-size: 1.8rem !important;
+    background-color: #99324c;
+  }
+
+  .parag{
+    font-size:1rem;
+    font-weight:600;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+    font-weight: 100%;
+    line-height: 1.5;
+  }
+
+  
+  .btn{
+    padding:12px 12px !important;
+    margin-top:4%;
+  }
+
+  .dinner-header{
+    font-size:1.5rem;
+  }
+
+  .background{
+    height:190vh;
+  }
+
+  .item-section {
+    font-family: Italiana, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #fadeb6;
+    text-align: center;
+    margin-top: 3%;
+    font-size:1.1rem;
+  }
+  .item {
+    font-size: .7rem;
+  }
+
+  .item-description{
+    font-size:.8rem;
+  }
+
+  .meal {
+    color: #e2725b;
+    margin-top: 3%;
+    text-align: center;
+    font-family: Italianno;
+    font-size: 1.2rem;
+  }
+
+
+
+  .wine-heading {
+    font-size: 2rem;
+  }
+
+
+  th{
+    font-size:.8rem !important;
+  }
+
+  
+  td{
+    font-size:1rem !important;
+    font-weight:100 !important;
+    line-height: 1.2rem;
+  }
+
+ 
+
+
+
+  /* .container {
+    background-repeat: no-repeat cover;
+    background-size: cover;
+    height: 130vh;
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  .form-div .reservation-form {
+    display: flex column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 4%;
+    width: 100%;
+  } */
+
+  .div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+  }
+
+  .div-button button {
+    padding: 22px 100px;
+    border-radius: 15px;
+    background: #e2725b;
+    opacity: 0.7;
+    color: beige;
+  }
+
+  label{
+    font-size:.6rem;
+  }
+
+  input{
+    width:35%;
+  }
+ 
+  .footer-name{
+    font-size:1.2rem;
+    
+  }
+  .footer-hours{
+    font-size:1rem;
+  }
+
+  .copyright{
+    font-size:1.2rem;
+  }
+
+  .footer-number{
+    font-size:1.2rem;
+  }
+
+  .footer-contact{
+    font-size:1.1rem;
+  }
+
+  .carms {
+    display: flex column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  .img {
+    border-radius: 50%;
+    max-height: 40vh;
+  }
+
+  .about{
+    font-size:1.8rem;
+  }
+  .about-paragraph {
+    margin-top: 4%;
+    font-weight: 400;
+    font-family: Italianna serif;
+    font-size: 1rem;
+  }
+
+  .img{
+    width:70%;
+  }
+  
+
+}
 
 
 @media (min-width: 700px) {

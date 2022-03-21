@@ -40,7 +40,7 @@ function Reservations() {
       <div className="reservation-container">
         <h2 className="reservations">Reservations</h2>
         <p className="parag">
-          For Reservations Please call 434 977 5200 or Please fill out the form
+          For Reservations, Please call 434 977 5200 or Please fill out the form
           Below.
         </p>
 
