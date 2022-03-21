@@ -517,13 +517,13 @@ a {
 
   .nav {
     display: inline-block;
-    height: 50%;
+    height:55vh;
     text-align: center;
     width: 100%;
   }
 
   .nav-links li {
-    margin-top: 3%;
+    margin-top: 8%;
     font-size:1rem;
   }
 
@@ -573,6 +573,7 @@ a {
 
   .reservations {
     font-size: 1.8rem !important;
+    background-color: #99324c;
   }
 
   .parag{
@@ -591,8 +592,30 @@ a {
     padding:12px 12px !important;
     margin-top:4%;
   }
+
+  .dinner-header{
+    font-size:1.5rem;
+  }
+
+  .background{
+    height:190vh;
+  }
+
+  .item-section {
+    font-family: Italiana, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #fadeb6;
+    text-align: center;
+    margin-top: 3%;
+    font-size:1.1rem;
+  }
   .item {
-    font-size: 1.4rem;
+    font-size: .7rem;
+  }
+
+  .item-description{
+    font-size:.8rem;
   }
 
   .meal {
@@ -600,44 +623,32 @@ a {
     margin-top: 3%;
     text-align: center;
     font-family: Italianno;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
-  table th {
-    padding: 3rem;
-    color: grey;
-  }
 
-  table td {
-    padding: 10px;
-    font-weight: bold;
-    font-family: Italianno;
-    font-size: 2.3rem;
-    color: #f7e7ce;
-  }
 
   .wine-heading {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 
-  .reservation-form input {
-    width: 40%;
+
+  th{
+    font-size:.8rem !important;
   }
 
-  .reservations-container {
-    height: 20vh;
+  
+  td{
+    font-size:1rem !important;
+    font-weight:100 !important;
+    line-height: 1.2rem;
   }
 
-  .reservations {
-    font-size: 3rem;
-    background: #f7e7ce;
-  }
+ 
 
-  .background {
-    height: 205vh;
-  }
 
-  .container {
+
+  /* .container {
     background-repeat: no-repeat cover;
     background-size: cover;
     height: 130vh;
@@ -651,7 +662,7 @@ a {
     height: 50vh;
     margin-top: 4%;
     width: 100%;
-  }
+  } */
 
   .div-button {
     display: flex;
@@ -668,6 +679,13 @@ a {
     color: beige;
   }
 
+  label{
+    font-size:.6rem;
+  }
+
+  input{
+    width:35%;
+  }
  
   .footer-name{
     font-size:1.2rem;
@@ -695,45 +713,29 @@ a {
     align-items: center;
   }
 
-  .ant-table-cell {
-    font-size: 1.6rem;
-    font-weight: 400;
-  }
 
-  .about {
-    font-family: Italianno, serif;
-    font-weight: bold;
-    font-size: 5rem;
-    text-align: center;
-    margin-top: 4%;
-    color: #99324c;
-  }
+
 
   .img {
     border-radius: 50%;
     max-height: 40vh;
   }
 
-  .about {
-    font-size: 4rem;
+  .about{
+    font-size:1.8rem;
   }
-
   .about-paragraph {
     margin-top: 4%;
     font-weight: 400;
     font-family: Italianna serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-  .item-section {
-    font-family: Italiana, serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1.8rem;
-    color: #fadeb6;
-    text-align: center;
-    margin-top: 3%;
+  .img{
+    width:70%;
   }
+  
+
 }
 
 
