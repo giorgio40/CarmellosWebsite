@@ -13,11 +13,10 @@ function Footer() {
         <br /> We are located at 400 Twenty-Ninth Place Ct. Charlottesville,
         Virginia 22901
         <br />
-        <section className="copyright">
-          &copy; Copyright Tech Solutions Inc
-        </section>
+        <section className="footer-number"> Phone: 434 977 5200</section>
+        <section className="copyright">  &#169; Tech Solutions Inc.</section>
+
       </section>
-      <section className="footer-number"> Phone: 434 977 5200</section>
       <section className="footer-contact">
         <a href="mailto: georgehatzigeorgio@gmail.com">Contact Us </a>
       </section>
