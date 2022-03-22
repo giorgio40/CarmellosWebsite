@@ -1,6 +1,6 @@
 import React from "react";
 import picture from "../images/momanddad.jpg";
-import '../CSS/about.css'
+import "../CSS/about.css"
 function About() {
   return (
     <div className="wrapper">
@@ -9,7 +9,7 @@ function About() {
         <img className="img" src={picture} alt="" />
       </div>
       <div className="about-paragraph">
-        <p>
+        <o>
           Carmello's was founded by Bill & Stella Hedges who are seasoned
           restauranteurs in 1987 in Manassas, Virginia. They featured Fine
           Northern Italian Cuisine. The restaurant was immediately a tremendous
