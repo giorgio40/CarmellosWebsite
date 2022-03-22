@@ -9,7 +9,7 @@ function About() {
         <img className="img" src={picture} alt="" />
       </div>
       <div className="about-paragraph">
-        <o>
+        <p>
           Carmello's was founded by Bill & Stella Hedges who are seasoned
           restauranteurs in 1987 in Manassas, Virginia. They featured Fine
           Northern Italian Cuisine. The restaurant was immediately a tremendous
