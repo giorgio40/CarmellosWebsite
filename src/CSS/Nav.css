@@ -1,0 +1,110 @@
+.nav {
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    opacity: 0.8;
+    background: #800020;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Italianno", serif;
+  }
+  
+  .li {
+    color: #e2725b;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+    transition: 0.2em;
+  }
+  
+   .li:hover {
+    color: gold;
+  }
+
+  .H2 {
+    font-family: Italiana;
+    font-size: 1.2rem;
+    margin-top: 3%;
+    font-style: italic;
+    color: #fad6a5;
+    font-weight: 500;
+  }
+  
+  .nav {
+    text-align: center;
+  }
+  
+  .carmslogo {
+    height: 15vh;
+  }
+
+  @media (min-width: 700px) {
+    .nav {
+      display: inline-block;
+      height: 65vh;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .li {
+      margin-top: 3%;
+    }
+  
+    .carmslogo {
+      margin-top: 3%;
+      height: 15vh;
+    }
+  
+    .nav-links {
+      display: inline-block;
+      position: relative;
+      top: 4%;
+    }
+
+  }
+
+  @media (min-width: 992px) {
+    .nav {
+      display: flex;
+      height: 20vh;
+      justify-content: space-evenly;
+    }
+  
+    .nav-links {
+      display: flex;
+      justify-content: space-evenly;
+      width: 50%;
+      align-items: center;
+      list-style: none;
+      font-size: 1.5rem;
+      font-family: "Italianno", serif;
+    }
+  
+    .nav-links li {
+      color: #e2725b;
+      font-size: 2rem;
+      text-shadow: 2px 2px black;
+    }
+  
+    .nav-links li:hover {
+      color: gold;
+    }
+  
+    .H2 {
+      margin-top: 6%;
+    }
+  }  
+
+  @media (min-width:1392px) {
+
+    .li{
+      font-size:2.5rem;
+    }
+    
+  }

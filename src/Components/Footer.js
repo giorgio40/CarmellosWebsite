@@ -2,6 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
+    <>
     <section className="footer">
       <section className="footer-name">
         Carmellos Ristorante & Wine Bar of Charlottesville
@@ -15,12 +16,17 @@ function Footer() {
         <br />
         <section className="footer-number"> Phone: 434 977 5200</section>
         <section className="copyright">  &#169; Tech Solutions Inc.</section>
-
+        <section className="social-media">
+          <a className="social-icon" href="http://https://www.facebook.com/CarmellosRestaurant">
+            <ion-icon name="logo-facebook"></ion-icon>      
+          </a>
+         </section>
       </section>
       <section className="footer-contact">
         <a href="mailto: georgehatzigeorgio@gmail.com">Contact Us </a>
       </section>
     </section>
+  </>
   );
 }
 

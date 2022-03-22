@@ -65,6 +65,7 @@ function Reservations() {
             >
               <label htmlFor="lastname">LastName</label>
               <input
+                className="input"
                 type="text"
                 name="lastname"
                 value={reservation.lastname}
@@ -75,6 +76,7 @@ function Reservations() {
               />
               <label htmlFor="amount"> Amount of Guests</label>
               <input
+                className="input"
                 type="number"
                 name="amount"
                 value={reservation.amount}
@@ -85,6 +87,7 @@ function Reservations() {
               />
               <label htmlFor="phone">Phone Number</label>
               <input
+                className="input"
                 type="text"
                 name="phone"
                 value={reservation.phone}
@@ -94,7 +97,7 @@ function Reservations() {
                 required
               />
               <label htmlFor="date"> Day</label>
-              <input
+              <input className="input"
                 type="date"
                 name="date"
                 value={reservation.day}
@@ -104,7 +107,7 @@ function Reservations() {
                 required
               />
               <label htmlFor="time">Time</label>
-              <input
+              <input className="input"
                 type="time"
                 name="time"
                 value={reservation.time}

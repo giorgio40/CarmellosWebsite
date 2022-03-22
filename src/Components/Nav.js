@@ -1,6 +1,7 @@
 import React from "react";
 import carms from "../images/carmslogo.jpg";
 import { Link } from "react-router-dom";
+import "../CSS/Nav.css";
 
 function Nav() {
   return (
@@ -12,19 +13,19 @@ function Nav() {
       </h2>
       <ul className="nav-links">
         <Link className="Link" to="/">
-          <li>Home</li>
+          <li className="li">Home</li>
         </Link>
         <Link className="Link" to="/reservations">
-          <li>Reservations</li>
+          <li className="li">Reservations</li>
         </Link>
         <Link to="/dinnermenu" className="Link">
-          <li>DinnerMenu</li>
+          <li className="li">Dinner Menu</li>
         </Link>
         <Link to="/winelist" className="Link">
-          <li>WineList</li>
+          <li className="li">WineList</li>
         </Link>
         <Link to="/about" className="Link">
-          <li>About</li>
+          <li className="li">About</li>
         </Link>
       </ul>
     </nav>
