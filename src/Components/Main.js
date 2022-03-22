@@ -2,6 +2,7 @@ import React from "react";
 import table from "../images/table.jpg";
 import { animated, useSpring } from "react-spring";
 import { Link } from "react-router-dom";
+import "../CSS/main.css"
 
 function Main() {
   const props = useSpring({

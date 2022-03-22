@@ -136,10 +136,50 @@ table {
   max-width: 100%;
 }
 
+.nav {
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  opacity: 0.8;
+  background: #800020;
+}
 
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: "Italianno", serif;
+}
 
+.nav-links li {
+  color: #e2725b;
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+}
 
+.nav-links li:hover {
+  color: gold;
+}
 
+.H2 {
+  font-family: Italiana;
+  font-size: 1.2rem;
+  margin-top: 3%;
+  font-style: italic;
+  color: #fad6a5;
+  font-weight: 500;
+}
+
+.nav {
+  text-align: center;
+}
+
+.carmslogo {
+  height: 15vh;
+}
 
 .container-img {
   background-repeat: no-repeat cover;
@@ -281,7 +321,7 @@ table td {
   width: 100%;
 }
 
-.input {
+input {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -338,67 +378,7 @@ label {
   background-color: #f7e7ce;
 }
 
-.footer-section {
-  background: #99334c;
-  height: 20vh;
-  display: flex column;
-  outline: 3px solid blue;
-}
 
-.carms {
-  display: flex column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  background: #fad6a5;
-  opacity: 0.8;
-  font-size: 1.5rem;
-  display: flex column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #b11226;
-  font-weight: bold;
-  margin-top: 3%;
-  max-height: 50vh !important;
-}
-
-a {
-  text-decoration: none;
-  color: #800020;
-}
-
-.footer-name {
-  font-family: Italianno, serif;
-  font-size: 2rem;
-  margin-bottom: 1%;
-  margin-top: 4%;
-}
-
-.footer-hours {
-  font-family: Italiana, serif;
-  font-style: italic;
-  margin-bottom: 1%;
-  padding: 1%;
-}
-
-.footer-number {
-  font-family: Italianno, serif;
-  font-size: 2rem;
-  margin-bottom: 1%;
-}
-
-.copyright {
-  margin-top: 2%;
-}
-
-.footer-contact {
-  font-family: serif;
-  font-size: 1.5rem;
-  font-style: italic;
-}
 
 .about {
   font-family: Italianno, serif;
@@ -474,7 +454,10 @@ a {
 
 
 
-@media (min-width: 700px) {
+ 
+
+
+
 
   .container-img {
     height: 120vh;
@@ -595,7 +578,6 @@ a {
     background: #99334c;
     height: 20vh;
     display: flex column;
-    outline: 3px solid blue;
   }
 
   .carms {
@@ -643,9 +625,17 @@ a {
     text-align: center;
     margin-top: 3%;
   }
-}
 
-@media(min-width:992px) {
+
+@media (min-width: 992px) {
+ 
+
+ 
+
+  .H2 {
+    margin-top: 7%;
+  }
+
   .anim-h1 {
     font-size: 3.5rem !important;
   }
@@ -691,12 +681,7 @@ a {
     padding: 22px 92px;
   }
 
-  .footer-section {
-    background: #99334c;
-    height: 20vh;
-    display: flex column;
-    outline: 3px solid blue;
-  }
+
 
   .carms {
     display: flex column;
@@ -704,27 +689,7 @@ a {
     align-items: center;
   }
 
-  .background {
-    height: 500vh;
-  }
-
-  .section {
-    font-family: Italiana, serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1.8rem;
-    color: #fadeb6;
-    text-align: center;
-    margin-top: 3%;
-  }
-
-  .item {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 2%;
-    color: #8b0000;
-    font-weight: bold;
-  }
+  
 }
 
 @media(min-width:1392px) {

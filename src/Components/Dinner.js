@@ -1,7 +1,7 @@
 import React from "react";
 import dining from "../images/carms.jpg";
 import { animated, useSpring } from "react-spring";
-
+import "../CSS/Dinner.css"
 function Dinner() {
   const props = useSpring({
     to: { opacity: 1, marginLeft: 0 },
