@@ -1,0 +1,73 @@
+.footer-section {
+    background: #99334c;
+    height: 20vh;
+    display: flex column;
+  }
+  
+  .carms {
+    display: flex column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer {
+    background: #fad6a5;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    display: flex column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #b11226;
+    font-weight: bold;
+    margin-top: 3%;
+    max-height: 50vh !important;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: #800020;
+  }
+  
+  .footer-name {
+    font-family: Italianno, serif;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    margin-top: 4%;
+  }
+  
+  .footer-hours {
+    font-family: Italiana, serif;
+    font-style: italic;
+    margin-bottom: 1%;
+    padding: 1%;
+  }
+  
+  .footer-number {
+    font-family: Italianno, serif;
+    font-size: 2rem;
+    margin-bottom: 1%;
+  }
+  
+  .copyright {
+    margin-top: 2%;
+  }
+  
+  .footer-contact {
+    font-family: serif;
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+  
+  @media (min-width:992px) {
+
+
+
+    .footer-section {
+        background: #99334c;
+        height: 20vh;
+        display: flex column;
+      }
+  }
+  

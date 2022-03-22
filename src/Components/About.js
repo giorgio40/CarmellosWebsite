@@ -1,6 +1,6 @@
 import React from "react";
 import picture from "../images/momanddad.jpg";
-
+import '../CSS/about.css'
 function About() {
   return (
     <div className="wrapper">
