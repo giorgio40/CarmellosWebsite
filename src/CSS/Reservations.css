@@ -1,0 +1,138 @@
+.background {
+  background-repeat: no-repeat cover;
+  background-size: cover;
+  height: 290vh;
+}
+.reservation-form input {
+    display: flex column;
+    justify-content: center;
+    align-items: center;
+  }
+  .reservations {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Italianno;
+    max-height: 15vh;
+    margin-top: 5%;
+  }
+  .dinner-header {
+    margin-top: 5%;
+    text-align: center;
+    font-family: Italianno;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #e2725b;
+  }
+  .container {
+    background-repeat: no-repeat cover;
+    background-size: cover;
+    height: 130vh;
+    font-size: 2rem;
+  }
+  .form-div .reservation-form {
+    display: flex column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 4%;
+    width: 100%;
+  }
+  
+  input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 5vh;
+  }
+  
+  .paragraph {
+    font-size: 2.5rem;
+    color: #F0EAD6;
+    text-align: center;
+    font-family: Italiana, serif;
+    font-weight:bold;
+    font-style: italic;
+    margin-top: 4%;
+    line-height: 1.8rem;
+    text-shadow: 2px 2px black;
+  }
+  
+  label {
+    color: #f5f5dc;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    font-weight: bold;
+  }
+  
+  .div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+  }
+  
+  .div-button button {
+    padding: 22px 100px;
+    border-radius: 15px;
+    background: #e2725b;
+    opacity: 0.7;
+    color: beige;
+  }
+  .div-button button:hover {
+    background: beige;
+    color: #e2725b;
+  }
+  .parag {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Italianno;
+    text-align: center;
+  
+    background-color: #f7e7ce;
+  }
+
+  @media(min-width:992px){
+
+    .background {
+      background-repeat: no-repeat cover;
+      background-size: cover;
+      height: 290vh;
+    }
+    .paragraph {
+      font-size: 2.1rem;
+      color:black;
+      text-align: center;
+      font-family: Italiana, serif;
+      font-weight: 500;
+      font-style: italic;
+      margin-top: 4%;
+    }
+  
+    .reservation-form input {
+      width: 30%;
+    }
+  
+    .div-button button {
+      padding: 22px 92px;
+    }
+  
+  
+  
+    .carms {
+      display: flex column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    
+  }
+
+
+

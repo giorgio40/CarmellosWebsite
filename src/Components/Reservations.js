@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import carms from "../images/diningroom.jpg";
-import { sendForm, init } from "emailjs-com";
+import { sendForm, init } from "emailjs-com"
+import "../CSS/Reservations.css";
 init("DlhTOjdE7Pqq5UJHA");
 
 function Reservations() {

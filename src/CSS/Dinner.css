@@ -52,8 +52,17 @@
       margin-top: 3%;
     }
 
-  
-    
+    .background{
+      height:200vh;
+    }
+
+    .item{
+      margin-top:8%;
+    }
+    .meal{
+      color:#e6c436;
+      margin-top:8%;
+    }
   }
   
   @media(min-width:992px) {
@@ -96,6 +105,15 @@
       font-size:2.6rem !important;
     }
     
+  
+  
+    .item-description{
+      font-size:1.2rem;
+    }
+    .meal{
+      font-size:2.2rem;
+      margin-top:4%;
+    }
     .item{
       font-size:2rem;
     }
@@ -103,6 +121,5 @@
     .item-description{
       font-size:1.2rem;
     }
-  
   }
   
