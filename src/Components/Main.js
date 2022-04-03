@@ -56,6 +56,7 @@ function Main() {
           </div>
         </div>
       </animated.div>
+    
     </main>
   );
 }
