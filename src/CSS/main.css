@@ -69,6 +69,54 @@
     text-decoration: none;
   }
 
+  .div-intro{
+    background:#e2725b;
+    margin-top: 4%;
+    height:50vh;
+    opacity: .8;
+  }
+
+  .intro{
+    font-size:2rem;
+    font-family:Italianno serif;
+    
+  }
+
+  @media(max-width:660px){
+    .container-img{
+      height:65vh;
+    }
+   
+    .anim-h1 {
+      font-size: 2.2rem;
+      color: #800020;
+      text-shadow: 0 1px 0 #fff;
+    }
+    
+    .anim-p {
+ 
+      font-size: 1.6rem;
+    }
+    
+    .anim-p2 {
+
+      font-size: 1.6rem;
+    }
+    
+    .anim-p3 {
+    
+      font-size: 1.6rem;
+    }
+    
+    
+    .cta-menu {
+      padding: 12px 22px;
+    
+    }
+
+
+  }
+
   @media (min-width: 700px) {
 
     .container-img {

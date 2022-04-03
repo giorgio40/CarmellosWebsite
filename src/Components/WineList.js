@@ -2,7 +2,7 @@ import React from "react";
 import wine from "../images/winephoto.jpg";
 import { Table } from "antd";
 import { animated, useSpring } from "react-spring";
-
+import "../CSS/Winelist.css"
 function WineList() {
   const props = useSpring({
     to: { opacity: 1, marginLeft: 0 },
