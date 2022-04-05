@@ -9,6 +9,7 @@
   .anim-h1 {
     font-size: 4.5rem;
     color: #e2725b;
+    text-shadow: 0 2px 0 gold;
     font-family: Italianno;
     font-weight: bold;
     text-align: center;

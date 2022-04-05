@@ -1,7 +1,7 @@
 .background {
   background-repeat: no-repeat cover;
   background-size: cover;
-  height: 260vh;
+  height: 285vh !important;
   margin-top:5%;
 }
 
@@ -15,7 +15,8 @@
     font-size: 3rem;
     line-height: 1.5em;
     text-shadow: 0px 0px 2px #fadeb6;;
-    color:#8b0000
+    color:#8b0000;
+    font-style: italic;
      
   }
 
