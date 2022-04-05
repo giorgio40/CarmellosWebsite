@@ -1,7 +1,8 @@
 .background {
   background-repeat: no-repeat cover;
   background-size: cover;
-  height: 350vh !important;
+  height: 285vh !important;
+  margin-top:5%;
 }
 
 
@@ -12,6 +13,10 @@
     font-family: Italianno serif;
     font-weight: 500;
     font-size: 3rem;
+    line-height: 1.5em;
+    text-shadow: 0px 0px 2px #fadeb6;;
+    color:#8b0000;
+    font-style: italic;
      
   }
 
@@ -57,6 +62,44 @@
     color:#e2725b;
     font-family: Roboto serif;
   }
+
+
+@media(max-width:660px ){
+
+.background{
+  height:200vh;
+}
+
+.meal{
+  text-shadow:0px 1px 2px black;
+}
+
+
+
+}
+
+@media(min-width:700px){
+  .background{
+    height:190vh;
+  }
+
+}
+
+@media(min-width:900px){
+
+
+  .background{
+    height:220vh;
+  }
+}
+
+@media(min-width:1300px){
+
+  .background{
+    height:240vh;
+  }
+
+}
 
   
  

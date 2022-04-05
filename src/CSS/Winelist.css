@@ -1,7 +1,8 @@
+  
 .wine-section{
     background-size: cover; 
-    background-repeat: no-repeat;
-    height:180vh;
+    background-repeat:repeat;
+    height:240vh;
     margin-top:4%;
 
 }
@@ -26,11 +27,31 @@
     
 }
 
-.ant-table-thead th{
-    color:#DAA520;
-    margin:auto;
+
+
+.wine-table{
+    
+    margin-top:4%;
+
+}
+
+td{
+    padding:5px;
 }
 
 
 
 
+
+.ant-table-tbody{
+    display:flex column;
+    justify-content:space-around;
+    
+}
+
+.ant-table-cell{
+    display:flex column;
+    justify-content:space-evenly;
+    width:15%;
+    color:#ffffff;
+}

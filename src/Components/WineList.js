@@ -424,7 +424,7 @@ function WineList() {
         <animated.div style={props}>
           <h4 className="wine-heading">Carmellos Wine List</h4>
 
-          <Table dataSource={dataSource} columns={columns} pagination={false} />
+          <Table  className="wine-table" dataSource={dataSource} columns={columns} pagination={false} />
         </animated.div>
       </section>
     </>

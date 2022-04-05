@@ -1,5 +1,5 @@
 import React from "react";
-import dining from "../images/carms.jpg";
+import pasta from "../images/pasta.jpg";
 import { animated, useSpring } from "react-spring";
 import "../CSS/Dinner.css"
 function Dinner() {
@@ -13,7 +13,7 @@ function Dinner() {
     <div
       className="background"
       style={{
-        backgroundImage: `url(${dining})`,
+        backgroundImage: `url(${pasta})`,
       }}
     >
       <animated.div style={props}>
