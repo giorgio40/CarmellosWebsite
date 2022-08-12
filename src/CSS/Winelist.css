@@ -2,7 +2,7 @@
 .wine-section{
     background-size: cover; 
     background-repeat:repeat;
-    height:240vh;
+    height:360vh;
     margin-top:4%;
 
 }
@@ -19,6 +19,7 @@
 .ant-table-cell{
     font-size:1.5rem;
     font-family:Italiano;
+    font-style: italic;
     text-align:center;
     color:white;
     text-align: center;
@@ -53,5 +54,6 @@ td{
     display:flex column;
     justify-content:space-evenly;
     width:15%;
-    color:#ffffff;
+    color:#faf0e6;
+    
 }
